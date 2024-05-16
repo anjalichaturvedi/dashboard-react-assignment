@@ -1,0 +1,171 @@
+.dashboard {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f6f7f9; /* Light gray background similar to Groww */
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px;
+  }
+  
+  header button {
+    background-color: #00d09c; /* Groww's primary green color */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increased padding */
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  header button:hover {
+    background-color: #00b380; /* Darker shade of Groww's green color */
+  }
+  
+  .overview, .users-and-logs, .blog-and-trial, .online-users {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjusted width */
+  }
+  
+  .stat-item {
+    background: white; /* White background for stat items */
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    margin-right: 20px; /* Increased margin */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  }
+  
+  .stat-item h3 {
+    margin: 10px 0;
+    color: #333; /* Dark gray font color */
+  }
+  
+  .graph {
+    width: 65%; /* Adjusted width */
+  }
+  
+  .mock-graph {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 150px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  }
+  
+  .graph-bar {
+    background: #00d09c; /* Groww's primary green color */
+    width: 10%;
+  }
+  
+  .new-users, .events-log, .how-to-sell-courses, .trial-period, .online-users {
+    width: 48%;
+  }
+  
+  .user-item, .event-item, .trial-info, .online-user-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px; /* Increased margin */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  }
+  
+  .event-item a, .how-to-sell-courses a {
+    color: #00d09c; /* Groww's primary green color */
+    text-decoration: none;
+  }
+  
+  .trial-info {
+    text-align: center;
+  }
+  
+  .trial-info button {
+    background-color: #00d09c; /* Groww's primary green color */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increased padding */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .trial-info button:hover {
+    background-color: #00b380; /* Darker shade of Groww's green color */
+  }
+  
+  .button {
+    background-color: #00d09c; /* Groww's primary green color */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increased padding */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .button:hover {
+    background-color: #00b380; /* Darker shade of Groww's green color */
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Transparent overlay */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form label {
+    margin-top: 10px;
+  }
+  
+  .form input[type="range"] {
+    width: 100%;
+  }
+  
+  .form span {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .summary {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
